@@ -1,0 +1,35 @@
+h1 {
+  font-size: 40px;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 1px 1px 1px #aaa;
+}
+
+p {
+  text-align: center;
+}
+
+  .paragraph1 {
+    font-size: 13px;
+    color: #c67e3b;
+  }
+
+.paragraph2 {
+    font-size: 13px;
+  text-align: justify;
+  }
+
+.paragraph3 {
+  font-size: 13px;
+  text-align: justify;
+}
+
+img.resize{
+   max-width:90px;
+   max-height:90px;
+}
+
+.paragraph4 {
+  font-size: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #c67e3b;
+}
