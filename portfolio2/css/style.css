@@ -1,0 +1,36 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  color: grey;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Share Tech Mono', monospace;
+  color:black;
+}
+
+h3 {
+  font-family: 'Share Tech Mono', monospace;
+  color:black;
+}
+
+h4 {
+  font-family: 'Nixie+One', monospace;
+  color:black;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+color: black;
+}
