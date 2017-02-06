@@ -1,3 +1,8 @@
+document.body.style.backgroundImage = "url('https://res.cloudinary.com/takeout/image/upload/v1486398671/bg-lsw_wt5xzw.png')";
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundAttachment = "fixed";
+
 var listeLiens = [
     {
         titre: "Eloquent Javascript",
