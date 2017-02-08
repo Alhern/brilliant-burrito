@@ -1,0 +1,108 @@
+body{
+	background-color: lightgrey;
+	text-align: center;
+	font-family: 'Press Start 2P', serif;
+}
+
+h1 {
+	color:white;
+	text-shadow: 0.1em 0em 0.3em #49adff;
+	display: inline-block;
+}
+
+#date, #clock {
+	display: inline-block;
+	opacity: 0.9;
+	color: white;
+	text-shadow: 0.1em 0em 0.3em #49adff;
+	padding: 1px;
+	font-size: 10px;
+}
+
+.container {
+	
+	font-family: 'Roboto Mono', sans-serif;
+	text-align: justify;
+	font-size: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	text-shadow: 0.1em 0em 0.3em #49adff;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	height: auto;
+	background-color: rgb(64,66,68); /*fallback color*/
+	background-color: rgba(64,66,68, 0.5);
+}
+
+input {
+width: 400px;
+height: 13px;
+border-radius: 2px;
+border: none;
+font-family: 'Roboto Mono', sans-serif;
+}
+
+form {
+	text-align: center;
+}
+
+.link-underline-ba {
+	text-decoration: none;
+    box-shadow: inset 0 -5px 0 #7fc2d8;
+    color: inherit;
+}
+
+.link-underline-ba:hover {
+    background: #7fc2d8;
+}
+
+.link-underline-so {
+	text-decoration: none;
+    box-shadow: inset 0 -5px 0 #98e0b1;
+    color: inherit;
+}
+
+.link-underline-so:hover {
+    background: #98e0b1;
+}
+
+.link-underline-pr {
+	text-decoration: none;
+    box-shadow: inset 0 -5px 0 #afbee0;
+    color: inherit;
+}
+
+.link-underline-pr:hover {
+    background: #afbee0;
+}
+
+/*i {
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+i:hover {
+	text-shadow: 0.1em 0.1em 0.3em red;
+}*/
+
+img {
+	width: 290px;
+	height: auto;
+}
+
+footer {
+	font-family: 'Roboto Mono', sans-serif;
+	color:white;
+	text-align: center;
+	font-size: 6px;
+	text-shadow: 0.1em 0em 0.3em #49adff;
+	text-transform: uppercase;
+	margin-top: 1em;
+	letter-spacing: 1px;
+	opacity: 0.9;
+}
