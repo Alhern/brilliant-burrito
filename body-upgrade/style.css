@@ -37,15 +37,25 @@ img:hover {
 }
 
 .col1, .col2, .col3 {
-	text-transform: uppercase;
 	text-align: center;
 	background-color: white;
 	width: 31.3%;
 	float: left;
 	margin: 1%;
-	height: 10em;
+	height: 12em auto;
 	margin-bottom: 1em;
 	overflow:auto;
+	font-size: 0.8em;
+}
+
+#alim-sml, #muscu-sml, #compl-sml {
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 1%;
+}
+
+#alim-cont, #muscu-cont, #compl-cont {
+	margin: 1%;
 }
 
 h1 {
