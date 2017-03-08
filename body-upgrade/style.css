@@ -4,6 +4,7 @@ body {
 	max-width: 645px;
 	margin: 0 auto;
 	color: #666666;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.22' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 #container {
@@ -17,7 +18,8 @@ body {
 	margin-bottom: 1em;
 	padding: 0.1em 1em 0.1em 1em;
 	overflow:auto;
-	
+	font-family: 'Roboto Mono', monospace;
+	font-size: 0.8em;
 }
 
 img {
@@ -45,7 +47,8 @@ img:hover {
 	height: 12em auto;
 	margin-bottom: 1em;
 	overflow:auto;
-	font-size: 0.8em;
+	font-size: 0.7em;
+	font-family: 'Roboto Mono', monospace;
 }
 
 #alim-sml, #muscu-sml, #compl-sml {
@@ -139,4 +142,8 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0;
+}
+
+#feat-text {
+	padding: 1% 3% 2% 3%;
 }
