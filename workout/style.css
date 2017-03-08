@@ -23,6 +23,15 @@ h1 {
 	margin-bottom: 1px;
 }
 
+#click {
+	text-align: center;
+	font-weight: bold;
+}
+
+#click:hover {
+color: #c93850;
+}
+
 .underline {
 	position: relative;
 	font-size: 19px;
@@ -84,8 +93,12 @@ i {
 	font-size: 12px;
 }
 
-div {
+#head, #content {
 	margin: 20px;
+}
+
+#content {
+	display: none;
 }
 
 footer {

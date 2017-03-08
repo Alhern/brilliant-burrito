@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="script.js"></script>
 	<link rel="stylesheet" href="style.css">
 	<title>GO MUSCU !</title>
 </head>
@@ -10,18 +13,21 @@
 	<h1>Débuter en musculation</h1>
 	<p class="subheader">Tout cela basé sur le programme de <a href="https://youtu.be/lAny_NkjvA0">Jean-Onche</a>.</p>
 	<hr>
-	<div>
+	<div id="head">
 	<img src="http://res.cloudinary.com/takeout/image/upload/v1488474595/wweights_vxbodk.png" alt="woman surrounded by weights">
 		<p class="summary">
 		<!-- <ol type="I">
-			<li> --><a href="#org">I. ORGANISATION</a> /<!-- </li> -->
-			<!-- <li> --><a href="#types">II. TYPES DE SPLIT</a> /<!-- </li> -->
-			<!-- <li> --><a href="#ech">III. L'ECHAUFFEMENT</a> /<!-- </li> -->
-			<!-- <li> --><a href="#exo">IV. LES EXERCICES</a><!-- </li>
+			<li> --><a href="#org" id="org">I. ORGANISATION</a> /<!-- </li> -->
+			<!-- <li> --><a href="#types" id="split">II. TYPES DE SPLIT</a> /<!-- </li> -->
+			<!-- <li> --><a href="#ech" id="echauff">III. L'ECHAUFFEMENT</a> /<!-- </li> -->
+			<!-- <li> --><a href="#exo" id="exercices">IV. LES EXERCICES</a><!-- </li>
 		</ol> -->
 		</p>
-		<hr>
-		<h3 id="org">I. <span class="underline">ORGANISATION</span> :</h3>
+		<div id="click">ALLEZ ON CLIQUE ICI !</div>
+		</div><hr>
+		<div id="content">
+		<div id="organisation">
+		<h3 id="org-title">I. <span class="underline">ORGANISATION</span> :</h3>
 		<ul>
 			<li>Full-body</li>
 			<span>Tous les groupes musculaires en 1 séance, plusieurs fois par semaine.</span>
@@ -31,7 +37,8 @@
 			<span>Haut séparé en 2 séances (tirages + poussées) et 1 séance pour le bas.</span>
 			<li><em>Split</em></li>
 			<span>Groupes musculaires répartis en plusieurs séances.</span>
-		</ul>
+		</ul></div>
+		<div id="split">
 		<h3 id="types">II. <span class="underline">TYPES DE SPLIT</span> :</h3>
 		<b>3</b> jours par semaine <i>(1j de repos entre chaque training)</i> :
 		<span>
@@ -70,7 +77,8 @@
 				<li>S5 : jambes</li>
 				<li>S6 : biceps/abdos</li>
 			</ul>
-		</span>
+		</span></div>
+		<div id="echauff">
 		<h3 id="ech">III. <span class="underline">L'ECHAUFFEMENT</span> :</h3>
 		<ul>
 			<li>Activation</li>
@@ -106,7 +114,8 @@
 			<li>10 rotations de chevilles dans l'autre</li>
 		</ol>
 	</span>
-</ul>
+</ul></div>
+<div id="exercices">
 <h3 id="exo">IV. <span class="underline">LES EXERCICES</span></h3>
 <ul>
 	<span><li>4 à 5 exercices pour les gros groupes musculaires (dos, pecs, cuisses)</li>
@@ -121,6 +130,7 @@
 	</span>
 </ul>
 </div>
-</body><hr>
+<hr></div>
+</body>
 <footer>Code by Alhern.</footer>
 </html>
